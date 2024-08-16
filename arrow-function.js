@@ -1,11 +1,11 @@
 //function expression
-const cliente= function(nombreCliente){
+const cliente = function (nombreCliente) {
     console.log('Mostrando datos del cliente: ' + nombreCliente);
 }
 cliente('Juan');
 
 //arrow function
-const clienteA=(nombreCliente)=>{
+const clienteA = (nombreCliente) => {
     console.log('Mostrando datos del cliente: ' + nombreCliente);
 }
-clienteA('Marcos Lopez')
+clienteA('Marcos Lopez');

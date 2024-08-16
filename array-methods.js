@@ -1,15 +1,16 @@
-const personas=[
-    {nombre: 'Juan', edad: 23, puesto: 'Frontend'},
-    {nombre: 'Lucia', edad: 25, puesto: 'UXUI'},
-    {nombre: 'Maria', edad: 27, puesto: 'Backend'},
-    {nombre: 'Marcos', edad: 33, puesto: 'Develops'},
+const personas = [
+    { nombre: 'Juan', edad: 23, puesto: 'Frontend' },
+    { nombre: 'Lucia', edad: 25, puesto: 'UXUI' },
+    { nombre: 'Maria', edad: 27, puesto: 'Backend' },
+    { nombre: 'Marcos', edad: 33, puesto: 'Develops' },
 ]
 
 console.log(personas)
-const mayores= personas.filter(persona => {
-    return persona.edad > 25    
+const mayores = personas.filter(persona => {
+    return persona.edad > 25
 })
 
-const maria = personas.find(persona=> {
+const maria = personas.find(persona => {
     ///return persona.nombre === 
 })
+console.log(maria)
